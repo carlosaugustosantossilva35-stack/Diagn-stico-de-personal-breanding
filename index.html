@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Que imagem eu transmito? Diagnóstico de personal branding</title>
+<meta name="description" content="Descubra em 20 perguntas qual imagem você transmite hoje e se ela combina com como você quer ser visto no futuro. Diagnóstico gratuito de marketing pessoal e personal branding.">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F0ECE0;--grid:#DEDACD;--ink:#3B3F63;--pill:#333;--pt:#F0ECE0;--acc:#A4B8D9;--mut:#5A5E7E;--ok:#2E7D5B;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1D2036;--grid:#2A2E4A;--ink:#E8E6F0;--pill:#10121F;--pt:#F0ECE0;--acc:#A4B8D9;--mut:#A9AEC8;--ok:#7BD3A8}}
+:root[data-theme="dark"]{--bg:#1D2036;--grid:#2A2E4A;--ink:#E8E6F0;--pill:#10121F;--pt:#F0ECE0;--acc:#A4B8D9;--mut:#A9AEC8;--ok:#7BD3A8}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:Poppins,system-ui,sans-serif;line-height:1.55;background-color:var(--bg);
+background-image:linear-gradient(var(--grid) 2px,transparent 2px),linear-gradient(90deg,var(--grid) 2px,transparent 2px);background-size:42px 42px}
+main{max-width:620px;margin:0 auto;padding:28px 20px 60px}
+h1,h2{font-family:"Archivo Black",Impact,sans-serif;font-weight:400;line-height:1.05;margin:0 0 14px;text-transform:none}
+h1{font-size:clamp(2.2rem,10vw,3.4rem)}
+h2{font-size:1.6rem}
+p{margin:0 0 14px;max-width:60ch}
+.mut{color:var(--mut)}
+.starw{filter:drop-shadow(3px 3px 0 #000);display:inline-block;margin-left:6px;vertical-align:middle}
+.star{display:block;width:44px;height:44px;background:var(--acc);clip-path:polygon(50% 0,60% 30%,90% 15%,72% 40%,100% 50%,72% 60%,90% 85%,60% 70%,50% 100%,40% 70%,10% 85%,28% 60%,0 50%,28% 40%,10% 15%,40% 30%)}
+.pill{background:var(--pill);color:var(--pt);border-radius:26px;padding:18px 22px;margin:0 0 14px}
+.pill b{display:block;margin-bottom:4px}
+.pill p{margin:0}
+button{font:inherit;cursor:pointer}
+.btn{background:var(--ink);color:var(--bg);border:0;border-radius:999px;padding:14px 26px;font-weight:600}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+button:focus-visible,textarea:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+textarea{width:100%;min-height:110px;border-radius:18px;border:2px solid var(--ink);background:var(--bg);color:var(--ink);padding:14px;font:inherit;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 18px}
+.chip{border:2px solid var(--ink);background:transparent;color:var(--ink);border-radius:999px;padding:6px 16px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.bar{height:10px;background:var(--grid);border-radius:99px;overflow:hidden;margin:0 0 20px}
+.bar i{display:block;height:100%;background:var(--ink);transition:width .3s}
+.opts{display:grid;gap:10px;margin:16px 0}
+.opt{text-align:left;background:var(--bg);color:var(--ink);border:2px solid var(--ink);border-radius:18px;padding:13px 18px}
+.opt:hover{background:var(--acc);color:#14213D}
+.big{font-family:"Archivo Black",Impact,sans-serif;font-size:clamp(1.7rem,7vw,2.4rem);line-height:1.1}
+.row{margin:14px 0}
+.row .t{display:flex;justify-content:space-between;font-weight:600;margin-bottom:4px}
+.row .bar{margin:0;height:8px}
+.row .bar i{width:var(--w)}
+.tag{font-size:.85rem;font-weight:600}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+[hidden]{display:none!important}
+footer{margin-top:40px}
+.key{display:inline-block;width:14px;height:14px;vertical-align:-2px;margin-right:6px;border:2px solid var(--ink);border-radius:3px}
+.k1{background:var(--acc)}.k2{border-style:dashed}
+.rd{display:block;width:100%;max-width:440px;margin:0 auto}
+.rd text{fill:var(--ink);font-family:Poppins,system-ui,sans-serif;font-size:12px;font-weight:600}
+.gl{fill:none;stroke:var(--ink);stroke-opacity:.25}
+.cur{fill:var(--acc);fill-opacity:.55;stroke:var(--ink);stroke-width:2.5}
+.goal{fill:none;stroke:var(--ink);stroke-width:2;stroke-dasharray:6 5}
+.grp{margin:12px 0}.grp b{display:block;margin-bottom:6px}
+.grp span{display:inline-block;border:2px solid var(--ink);border-radius:999px;padding:3px 14px;margin:0 6px 6px 0;font-size:.92rem}
+.grp.ok span{background:var(--ink);color:var(--bg)}
+.lnk{display:inline-block;margin:0 10px 10px 0;color:var(--ink);font-weight:600}
+@media print{body{background:#fff!important;color:#000!important}.btn,.actions,footer,.starw{display:none!important}.pill{background:#eee!important;color:#000!important;border:1px solid #999;-webkit-print-color-adjust:exact;print-color-adjust:exact}.bar{border:1px solid #999}.bar i{background:#333!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.pill,.row{break-inside:avoid}}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+</style>
+</head>
+<body>
+<main>
+
+<section id="home">
+  <h1>Que imagem eu transmito?<span class="starw"><i class="star"></i></span></h1>
+  <p>Descubra, em 20 perguntas, a imagem que as pessoas provavelmente enxergam em você hoje e se ela combina com a imagem que você quer ter no futuro.</p>
+  <div class="pill"><b>Marketing pessoal</b><p>A forma como você constrói e transmite sua imagem, destacando suas qualidades, habilidades e conhecimentos.</p></div>
+  <div class="pill"><b>Personal branding</b><p>A gestão da sua marca pessoal: sua identidade, seus valores e aquilo que você quer que as pessoas associem a você.</p></div>
+  <button class="btn" id="start">Começar</button>
+</section>
+
+<section id="goal" hidden>
+  <h2>Como eu quero ser visto daqui a 5 anos ou mais?</h2>
+  <p class="mut">Escreva com suas palavras. Depois vamos comparar com a imagem que você transmite hoje.</p>
+  <label for="goaltxt" class="tag">Minha imagem no futuro</label>
+  <textarea id="goaltxt" maxlength="400" placeholder="Ex.: Quero ser visto como um gestor preparado, que inspira confiança na equipe."></textarea>
+  <p class="tag" style="margin-top:16px">Escolha até 3 características que mais combinam com você no futuro:</p>
+  <div class="chips" id="chips"></div>
+  <button class="btn" id="goon" disabled>Ir para as perguntas</button>
+</section>
+
+<section id="quiz" hidden>
+  <div class="bar"><i id="prog" style="width:0"></i></div>
+  <p class="tag mut" id="meta"></p>
+  <h2 id="q"></h2>
+  <div class="opts" id="opts"></div>
+  <button class="btn ghost" id="back">Voltar</button>
+</section>
+
+<section id="result" hidden>
+  <p class="tag mut">Hoje você transmite</p>
+  <div class="big" id="now"></div>
+  <p id="nowsum" style="margin-top:12px"></p>
+
+  <h2 style="margin-top:26px">Seu perfil em gráfico</h2>
+  <div id="radar"></div>
+  <p class="tag"><span class="key k1"></span>Como você é hoje &nbsp; <span class="key k2"></span>Como quer ser visto</p>
+  <div id="groups"></div>
+
+  <div class="pill" style="margin-top:20px"><b>Você quer ser visto assim</b><p id="goalshow"></p></div>
+  <h2 style="margin-top:26px">Hoje x futuro</h2>
+  <p id="match"></p>
+  <div id="gaps"></div>
+
+  <h2 style="margin-top:28px">Seu plano de 30 dias</h2>
+  <div id="plan"></div>
+
+  <h2 style="margin-top:28px">Todas as características</h2>
+  <div id="rows"></div>
+
+  <div class="pill" style="margin-top:22px"><b>Lembre-se</b><p>Imagem que não combina com quem você realmente é não se sustenta. Use o diagnóstico para alinhar o que você faz ao que quer transmitir.</p></div>
+  <div class="actions"><button class="btn" id="dl">Baixar resultado (PDF)</button><button class="btn ghost" id="again">Refazer</button></div>
+</section>
+
+<section id="about" hidden>
+  <h2>Sobre e contato</h2>
+  <p id="aboutp"></p>
+  <div id="contacts"></div>
+  <button class="btn ghost" id="aboutback">Voltar</button>
+</section>
+
+<footer id="foot"><button class="btn ghost" id="aboutbtn">Sobre e contato</button></footer>
+
+</main>
+<script>
+var T=[
+{n:"Comunicativo",tip:"Treine explicar suas ideias em 1 minuto e peça a alguém para repetir o que entendeu.",q:["Explico minhas ideias com clareza, falando ou escrevendo.","Me apresento bem a pessoas novas, contando minhas experiências e habilidades."]},
+{n:"Organizado",tip:"Escolha uma agenda e uma lista única de tarefas e revise todo dia no mesmo horário.",q:["Entrego o que me pedem dentro do prazo.","Mantenho minhas tarefas, materiais e agenda em ordem."]},
+{n:"Confiável",tip:"Prometa menos e cumpra tudo. Pequenos combinados cumpridos constroem reputação.",q:["Cumpro o que prometo, mesmo quando é difícil.","As pessoas me confiam tarefas ou assuntos importantes."]},
+{n:"Preparado",tip:"Reserve um tempo fixo por semana para estudar sua área e leia sobre o assunto antes de reuniões.",q:["Estudo ou me atualizo sobre minha área com frequência.","Chego a reuniões e conversas importantes sabendo do assunto."]},
+{n:"Sério",tip:"Antes de falar ou publicar, pergunte: isso combina com a imagem que quero ter? Cuide da postura em ambientes formais.",q:["Mantenho postura respeitosa em ambientes profissionais ou formais.","Penso antes de falar ou publicar algo em contextos profissionais."]},
+{n:"Estiloso",tip:"Ajuste visual e foto de perfil à ocasião e ao que você quer transmitir, sem copiar ninguém.",q:["Cuido da minha aparência de acordo com cada ocasião.","Meu visual e minhas fotos de perfil combinam com a imagem que quero passar."]},
+{n:"Criativo",tip:"Quando surgir um problema, leve sempre uma ideia nova, mesmo que simples.",q:["Proponho ideias novas quando surge um problema.","Meus trabalhos ou publicações têm um toque pessoal."]},
+{n:"Líder",tip:"Ofereça-se para coordenar pequenas tarefas de grupo e elogie o que os outros fazem bem.",q:["Assumo a frente quando um grupo precisa de direção.","Ajudo outras pessoas a darem o seu melhor."]},
+{n:"Visível",tip:"Atualize seu perfil profissional, pesquise seu nome e veja o que as pessoas encontram.",q:["Meu perfil profissional online está atualizado e completo.","Quando pesquiso meu nome, encontro algo que me representa bem."]},
+{n:"Responsável",tip:"Assuma erros rápido, corrija e lembre que suas redes sociais também falam por você.",q:["Assumo meus erros e busco corrigi-los.","Penso no impacto das minhas atitudes e das minhas redes sociais na minha imagem."]}
+];
+var O=["Não","Às vezes","Sim"];
+var Q=[];T.forEach(function(t,i){t.q.forEach(function(s){Q.push({t:i,s:s})})});
+// intercalar para não repetir a mesma característica em sequência
+Q=Q.filter(function(x,i){return i%2==0}).concat(Q.filter(function(x,i){return i%2==1}));
+var A=[],cur=0,pick=[];
+var $=function(i){return document.getElementById(i)};
+var prev="home";
+var SOBRE={nome:"",bio:"",email:"",instagram:"",linkedin:""};
+function show(id){if(id!=="about")prev=id;["home","goal","quiz","result","about"].forEach(function(s){$(s).hidden=s!==id});$("foot").hidden=id==="about";window.scrollTo(0,0)}
+function about(){
+  var p=$("aboutp");p.textContent=(SOBRE.nome?"Criado por "+SOBRE.nome+". ":"")+(SOBRE.bio?SOBRE.bio+" ":"")+"Este diagnóstico é um projeto sobre marketing pessoal e personal branding. As perguntas são uma autoavaliação e não substituem a opinião de outras pessoas sobre você.";
+  var c=$("contacts");c.innerHTML="";
+  function add(t,h){var a=document.createElement("a");a.className="lnk";a.textContent=t;a.href=h;a.target="_blank";a.rel="noopener";c.appendChild(a)}
+  if(SOBRE.email)add("E-mail","mailto:"+SOBRE.email);
+  if(SOBRE.instagram)add("Instagram","https://instagram.com/"+SOBRE.instagram.replace("@",""));
+  if(/^https:\/\//.test(SOBRE.linkedin))add("LinkedIn",SOBRE.linkedin);
+  show("about");
+}
+function chk(){$("goon").disabled=$("goaltxt").value.trim().length<5}
+var ch=$("chips");
+T.forEach(function(t,i){
+  var b=document.createElement("button");b.className="chip";b.textContent=t.n;b.setAttribute("aria-pressed","false");
+  b.onclick=function(){
+    var k=pick.indexOf(i);
+    if(k>-1){pick.splice(k,1)}else if(pick.length<3){pick.push(i)}
+    Array.prototype.forEach.call(ch.children,function(c,j){c.setAttribute("aria-pressed",pick.indexOf(j)>-1)});
+  };
+  ch.appendChild(b);
+});
+$("goaltxt").oninput=chk;
+function render(){
+  $("meta").textContent="Pergunta "+(cur+1)+" de "+Q.length;
+  $("q").textContent=Q[cur].s;
+  $("prog").style.width=(cur/Q.length*100)+"%";
+  $("back").style.visibility=cur?"visible":"hidden";
+  var o=$("opts");o.innerHTML="";
+  O.forEach(function(l,v){
+    var b=document.createElement("button");b.className="opt";b.textContent=l;
+    b.onclick=function(){A[cur]=v;cur++;cur<Q.length?render():finish()};
+    o.appendChild(b);
+  });
+}
+function lst(a){return a.length>1?a.slice(0,-1).join(", ")+" e "+a[a.length-1]:a[0]}
+function finish(){
+  var s=T.map(function(){return 0});
+  Q.forEach(function(q,i){s[q.t]+=A[i]});
+  var p=s.map(function(v){return Math.round(v/4*100)});
+  var ord=p.map(function(v,i){return i}).sort(function(a,b){return p[b]-p[a]});
+  var top=ord.slice(0,3).map(function(i){return T[i].n});
+  var low=ord.slice(-2).map(function(i){return T[i].n});
+  $("now").textContent=lst(top);
+  $("nowsum").textContent="Essas são as características que mais aparecem nas suas respostas. As que menos aparecem hoje, e que provavelmente passam despercebidas, são "+lst(low).toLowerCase()+".";
+  $("goalshow").textContent=$("goaltxt").value.trim()+(pick.length?" ("+lst(pick.map(function(i){return T[i].n}))+")":"");
+  var g=$("gaps");g.innerHTML="";
+  if(pick.length){
+    var avg=Math.round(pick.reduce(function(a,i){return a+p[i]},0)/pick.length);
+    $("match").textContent="Alinhamento com a imagem que você quer ter: "+avg+"%. "+(avg>=67?"Você já está no caminho certo; agora é manter e mostrar isso.":avg>=34?"Você tem uma base, mas ainda falta consistência.":"Hoje existe uma distância grande entre a imagem atual e a desejada, e isso é um ponto de partida.");
+    pick.forEach(function(i){
+      var st=p[i]>=67?"Já transmite":p[i]>=34?"Em construção":"Ainda não transmite";
+      var d=document.createElement("div");d.className="pill";
+      d.innerHTML="<b></b><p></p>";
+      d.querySelector("b").textContent=T[i].n+" · "+st+" ("+p[i]+"%)";
+      d.querySelector("p").textContent=p[i]>=67?"Continue mostrando isso com atitudes e exemplos reais.":T[i].tip;
+      g.appendChild(d);
+    });
+  }else{
+    $("match").textContent="Você não escolheu características, então compare o que escreveu com o que aparece em destaque acima.";
+    var w=ord[ord.length-1];
+    var d=document.createElement("div");d.className="pill";d.innerHTML="<b></b><p></p>";
+    d.querySelector("b").textContent="Comece por "+T[w].n;d.querySelector("p").textContent=T[w].tip;g.appendChild(d);
+  }
+  var N=T.length,C=180,R=88;
+  function pt(i,r){var a=-Math.PI/2+i*2*Math.PI/N;return [C+r*Math.cos(a),C+r*Math.sin(a)]}
+  function poly(f){return T.map(function(t,i){var q=pt(i,R*f(i)/100);return q[0].toFixed(1)+","+q[1].toFixed(1)}).join(" ")}
+  var sv='<svg class="rd" viewBox="0 0 360 360" role="img" aria-label="Gráfico radar das 10 características">';
+  [33,67,100].forEach(function(l){sv+='<polygon class="gl" points="'+poly(function(){return l})+'"/>'});
+  T.forEach(function(t,i){var e=pt(i,R),l=pt(i,R+16),c=Math.cos(-Math.PI/2+i*2*Math.PI/N);
+    sv+='<line class="gl" x1="'+C+'" y1="'+C+'" x2="'+e[0].toFixed(1)+'" y2="'+e[1].toFixed(1)+'"/><text x="'+l[0].toFixed(1)+'" y="'+(l[1]+4).toFixed(1)+'" text-anchor="'+(c>0.25?"start":c<-0.25?"end":"middle")+'">'+t.n+'</text>'});
+  if(pick.length)sv+='<polygon class="goal" points="'+poly(function(i){return pick.indexOf(i)>-1?100:p[i]})+'"/>';
+  sv+='<polygon class="cur" points="'+poly(function(i){return p[i]})+'"/></svg>';
+  $("radar").innerHTML=sv;
+  var gr=$("groups");gr.innerHTML="";
+  [["Você já tem",function(v){return v>=67},"grp ok"],["Em construção",function(v){return v>=34&&v<67},"grp"],["Você ainda não tem",function(v){return v<34},"grp"]].forEach(function(g){
+    var m=ord.filter(function(i){return g[1](p[i])});if(!m.length)return;
+    var d=document.createElement("div");d.className=g[2];var b=document.createElement("b");b.textContent=g[0];d.appendChild(b);
+    m.forEach(function(i){var sp=document.createElement("span");sp.textContent=T[i].n;d.appendChild(sp)});gr.appendChild(d)});
+  var foc=[];
+  pick.slice().sort(function(a,b){return p[a]-p[b]}).forEach(function(i){if(p[i]<100&&foc.length<3)foc.push(i)});
+  ord.slice().reverse().forEach(function(i){if(foc.indexOf(i)<0&&foc.length<3)foc.push(i)});
+  var pl=$("plan");pl.innerHTML="";
+  foc.forEach(function(i,k){var d=document.createElement("div");d.className="pill";d.innerHTML="<b></b><p></p>";d.querySelector("b").textContent="Semana "+(k+1)+" · foco em "+T[i].n;d.querySelector("p").textContent=T[i].tip;pl.appendChild(d)});
+  var f=document.createElement("div");f.className="pill";f.innerHTML="<b></b><p></p>";
+  f.querySelector("b").textContent="Semana 4 · confira como os outros te veem";
+  f.querySelector("p").textContent="Peça a cinco pessoas: \"Em três palavras, como você me descreve profissionalmente?\". Compare com o seu resultado e refaça o diagnóstico.";
+  pl.appendChild(f);
+  var r=$("rows");r.innerHTML="";
+  ord.forEach(function(i){
+    var d=document.createElement("div");d.className="row";
+    d.innerHTML='<div class="t"><span></span><span>'+p[i]+'%</span></div><div class="bar"><i style="--w:'+p[i]+'%"></i></div>';
+    d.querySelector("span").textContent=T[i].n;r.appendChild(d);
+  });
+  show("result");
+}
+$("aboutbtn").onclick=about;
+$("aboutback").onclick=function(){show(prev)};
+$("dl").onclick=function(){window.print()};
+$("start").onclick=function(){show("goal")};
+$("goon").onclick=function(){A=[];cur=0;show("quiz");render()};
+$("back").onclick=function(){if(cur>0){cur--;render()}};
+$("again").onclick=function(){$("goaltxt").value="";pick=[];Array.prototype.forEach.call(ch.children,function(c){c.setAttribute("aria-pressed","false")});chk();show("home")};
+</script>
+</body>
+</html>
